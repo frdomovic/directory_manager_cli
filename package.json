@@ -1,5 +1,5 @@
 {
-  "name": "directory_manager",
+  "name": "@frdomovic/directory_manager",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -11,9 +11,14 @@
     "dev": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "author": "Fran Domovic",
   "license": "ISC",
+  "repository": "https://github.com/frdomovic/directory_manager_cli",
+  "homepage": "https://github.com/frdomovic/directory_manager_cli#readme",
   "dependencies": {
     "commander": "^11.1.0",
     "figlet": "^1.7.0"
